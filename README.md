@@ -3,8 +3,10 @@
 - Further revisions will incrementally implement additional Marlin options and update code with the goal of eventually modernizing the code to reflect the latest Marlin stock releases. This will be a difficult and long process, as the original source code is heavily modified and unique.
 - This code is capable of compiling firmware for various Mingda models using the following 32-bit Mingda board and its iterations.
   - Board Model Numbers: BC.DZ.PC000007.03, 04
+  - Board Name/Aliases: langgo4007, MD d301
   - Microcontrollers: 
-    - (S) = STM32 [STM32F407VE (192k RAM. 512k Flash)]
+    - (S) = STM32 
+        - [STM32F407ZET6 (192k RAM. 512k Flash)] https://www.st.com/en/microcontrollers-microprocessors/stm32f407ze.html
     - (G) = GD32
   - Features:
     - Integrated 2208 stepper drivers
