@@ -1,5 +1,5 @@
 --style=google
---keep-one-line-blocksa
+--keep-one-line-blocks
 
 --indent=spaces=2
 --indent-preproc-block
