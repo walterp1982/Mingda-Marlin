@@ -51,7 +51,7 @@
 // Pulled from MIngda old
 #define D301_AUTO_LEVELING
 #ifdef D301_AUTO_LEVELING
-  #define MARLIN_DEV_MODE
+  #define MARLIN_DEV_MODE //left off in _adv.h for ease of use
   #define HAS_FSMC_TFT  1
   #define MD_FSMC_LCD
   #define LEVELING_OFFSET
