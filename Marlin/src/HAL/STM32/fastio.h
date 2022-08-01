@@ -38,6 +38,7 @@ extern GPIO_TypeDef * FastIOPortMap[];
 // ------------------------
 
 void FastIO_init(); // Must be called before using fast io macros
+#define FASTIO_INIT() FastIO_init()
 
 // ------------------------
 // Defines
@@ -59,7 +60,7 @@ void FastIO_init(); // Must be called before using fast io macros
 #endif
 
 #define _READ(IO)               bool(READ_BIT(FastIOPortMap[STM_PORT(digitalPinToPinName(IO))]->IDR, _BV32(STM_PIN(digitalPinToPinName(IO)))))
-#define _TOGGLE(IO)             (FastIOPortMap[STM_PORT(digitalPinToPinName(IO))]->ODR ^= _BV32(STM_PIN(digitalPinToPinName(IO))))
+#define _TOGGLE(IO)             TBI32(FastIOPortMap[STM_PORT(digitalPinToPinName(IO))]->ODR, STM_PIN(digitalPinToPinName(IO)))
 
 #define _GET_MODE(IO)
 #define _SET_MODE(IO,M)         pinMode(IO, M)
@@ -77,7 +78,6 @@ void FastIO_init(); // Must be called before using fast io macros
 #define SET_INPUT_PULLUP(IO)    _SET_MODE(IO, INPUT_PULLUP)                       //!< Input with Pull-up activation
 #define SET_INPUT_PULLDOWN(IO)  _SET_MODE(IO, INPUT_PULLDOWN)                     //!< Input with Pull-down activation
 #define SET_OUTPUT(IO)          OUT_WRITE(IO, LOW)
-#define SET_OUTPUT_H(IO)        OUT_WRITE(IO, HIGH)
 #define SET_PWM(IO)             _SET_MODE(IO, PWM)
 
 #define IS_INPUT(IO)

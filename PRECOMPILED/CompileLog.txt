@@ -1,0 +1,507 @@
+Executing task in folder Mingda-Marlin: C:\Users\xadministrator\.platformio\penv\Scripts\platformio.exe run 
+
+Processing langgo407ve_st (platform: ststm32@~12.1; board: langgo407ve; framework: arduino)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/ststm32/langgo407ve.html
+PLATFORM: ST STM32 (12.1.1) > STM32F407VE (192k RAM. 512k Flash)
+HARDWARE: STM32F407VET6 168MHz, 128KB RAM, 502.23KB Flash
+DEBUG: Current (jlink) External (jlink, stlink)
+PACKAGES: 
+ - framework-arduinoststm32 @ 4.10900.200819 (1.9.0) 
+ - framework-cmsis @ 2.50501.200527 (5.5.1) 
+ - toolchain-gccarmnoneeabi @ 1.90201.191206 (9.2.1)
+Converting Marlin.ino
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 19 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- rtt @ 0.0.1
+|-- fatfs @ 0.0.1
+|-- stm32_host_usb_library @ 0.0.1
+|-- TMCStepper @ 0.7.3
+|   |-- SoftwareSerial @ 1.0
+|   |-- SPI @ 1.0
+|-- IWatchdog @ 1.0.0
+|-- SPI @ 1.0
+|-- EEPROM @ 2.0.1
+|-- SoftwareSerial @ 1.0
+|-- GD32F4xx_usb_library @ 0.0.1
+|   |-- fatfs @ 0.0.1
+|-- Servo @ 1.1.2
+|-- Wire @ 1.0
+Building in release mode
+langgo: stm32 bootloader py execute
+langgo: find define.vect tab offset:0x10000
+langgo: vect tab offset0x10000
+Compiling .pio\build\langgo407ve_st\FrameworkArduinoVariant\PeripheralPins.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduinoVariant\variant.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\HardwareTimer.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\RingBuffer.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\USBSerial.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\VirtIOSerial.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\WInterrupts.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\WSerial.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\abi.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\avr\dtostrf.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\board.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\hooks.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\itoa.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\main.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\new.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\pins_arduino.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\device.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\generic\condition.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\generic\cortexm\sys.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\generic\generic_device.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\generic\generic_init.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\generic\generic_io.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\generic\generic_shmem.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\generic\time.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\init.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\io.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\log.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\libmetal\shmem.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\mbox_ipcc.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\open-amp\remoteproc\remoteproc_virtio.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\open-amp\rpmsg\rpmsg.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\open-amp\rpmsg\rpmsg_virtio.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\openamp.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\rsc_table.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\virt_uart.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\virtio\virtio.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\virtio\virtqueue.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\virtio_buffer.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\OpenAMP\virtio_log.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\startup_stm32yyxx.S.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\cdc\cdc_queue.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\cdc\usbd_cdc.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\cdc\usbd_cdc_if.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\hid\usbd_hid_composite.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\hid\usbd_hid_composite_if.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\usb_device_core.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\usb_device_ctlreq.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\usb_device_ioreq.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\usbd_conf.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\usbd_desc.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\usbd_ep_conf.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\stm32\usb\usbd_if.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\wiring_analog.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\wiring_digital.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\wiring_pulse.cpp.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\wiring_shift.c.o
+Compiling .pio\build\langgo407ve_st\FrameworkArduino\wiring_time.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_adc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_adc_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_can.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_cec.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_comp.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_comp_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_cordic.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_cortex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_crc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_crc_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_cryp.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_cryp_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_dac.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_dac_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_dcmi.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_dcmi_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_dfsdm.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_dfsdm_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_dma.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_dma2d.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_dma_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_dsi.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_dts.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_eth.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_eth_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_exti.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_fdcan.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_firewall.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_flash.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_flash_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_flash_ramfunc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_fmac.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_fmpi2c.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_fmpi2c_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_gfxmmu.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_gpio.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_gpio_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_hash.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_hash_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_hcd.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_hrtim.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_hsem.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_i2c.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_i2c_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_i2s.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_i2s_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_ipcc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_irda.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_iwdg.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_jpeg.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_lcd.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_lptim.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_ltdc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_ltdc_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_mdios.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_mdma.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_mmc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_mmc_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_nand.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_nor.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_opamp.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_opamp_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_ospi.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_otfdec.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_pccard.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_pcd.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_pcd_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_pka.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_pssi.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_pwr.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_pwr_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_qspi.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_ramecc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_rcc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_rcc_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_rng.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_rng_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_rtc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_rtc_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_sai.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_sai_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_sd.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_sd_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_sdadc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_sdram.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_smartcard.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_smartcard_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_smbus.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_spdifrx.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_spi.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_spi_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_sram.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_swpmi.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_tim.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_tim_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_tsc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_uart.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_uart_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_usart.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_usart_ex.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\HAL\stm32yyxx_hal_wwdg.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_adc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_bdma.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_comp.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_cordic.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_crc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_crs.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_dac.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_delayblock.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_dma.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_dma2d.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_exti.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_fmac.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_fmc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_fsmc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_gpio.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_hrtim.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_i2c.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_lptim.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_lpuart.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_mdma.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_opamp.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_pka.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_pwr.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_rcc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_rng.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_rtc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_sdmmc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_spi.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_swpmi.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_tim.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_ucpd.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_usart.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_usb.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\LL\stm32yyxx_ll_utils.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\PortNames.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\analog.cpp.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\bootloader.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\clock.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\core_callback.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\dwt.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\hw_config.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\interrupt.cpp.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\lock_resource.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\low_power.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\pinmap.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\rtc.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\stm32_def.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\stm32_eeprom.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\system_stm32yyxx.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\timer.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\stm32\uart.c.o
+Compiling .pio\build\langgo407ve_st\SrcWrapper\src\syscalls.c.o
+Compiling .pio\build\langgo407ve_st\src\src\GD32_USBSerial.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\HAL.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\HAL_SPI.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\MarlinSPI.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\MarlinSerial.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\MinSerial.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\Sd2Card_sdio_stm32duino.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\Servo.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\eeprom_bl24cxx.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\eeprom_flash.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\eeprom_if_iic.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\eeprom_sdcard.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\eeprom_sram.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\eeprom_wired.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\fast_pwm.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\fastio.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\msc_sd.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\sdio.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\tft\gt911.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\tft\tft_fsmc.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\tft\tft_ltdc.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\tft\tft_spi.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\tft\xpt2046.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\timers.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\usb_host.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\usb_serial.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\STM32\watchdog.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\Delay.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\HAL.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\MinSerial.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\backtrace\backtrace.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\backtrace\unwarm.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\backtrace\unwarm_arm.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\backtrace\unwarm_thumb.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\backtrace\unwarmbytab.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\backtrace\unwarmmem.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\backtrace\unwinder.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\backtrace\unwmemaccess.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\eeprom_api.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\eeprom_if_w25qxx.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\esp_wifi.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\HAL\shared\servo.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\MarlinCore.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\core\serial.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\core\utility.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\explorer.c.o
+Compiling .pio\build\langgo407ve_st\src\src\fatfs.c.o
+Compiling .pio\build\langgo407ve_st\src\src\feature\babystep.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\feature\bedlevel\abl\bbl.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\feature\bedlevel\bedlevel.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\feature\mmu2\mmu2.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\feature\pause.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\feature\power.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\feature\powerloss.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\feature\runout.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\feature\tmc_util.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\feature\z_stepper_align.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\file_op.c.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\bedlevel\G42.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\bedlevel\M420.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\bedlevel\abl\G29.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\bedlevel\abl\M421.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\calibrate\G28.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\calibrate\G34_M422.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\calibrate\G76_M192_M871.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\calibrate\M48.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\config\M200-M205.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\config\M220.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\config\M221.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\config\M301.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\config\M302.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\config\M304.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\config\M309.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\config\M43.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\config\M92.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\M108_M112_M410.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\M111.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\M120_M121.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\M17_M18_M84.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\M211.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\M400.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\M80_M81.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\M85.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\M993_M994.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\M997.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\M999.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\control\T.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\eeprom\M500-M504.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\advance\M900.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\digipot\M907-M910.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\pause\G27.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\pause\M125.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\pause\M600.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\pause\M603.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\pause\M701_M702.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\powerloss\M1000.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\powerloss\M413.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\runout\M412.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\trinamic\M122.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\trinamic\M569.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\trinamic\M906.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\trinamic\M911-M914.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\feature\trinamic\M919.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\gcode.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\gcode_d.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\geometry\G92.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\geometry\M206_M428.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\host\M110.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\host\M114.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\host\M115.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\host\M118.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\host\M119.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\host\M154.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\lcd\M0_M1.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\lcd\M117.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\lcd\M145.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\lcd\M300.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\motion\G0_G1.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\motion\G2_G3.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\motion\G4.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\motion\M290.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\parser.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\probe\G30.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\probe\M401_M402.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\probe\M851.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\queue.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M1001.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M20.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M21_M22.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M23.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M24_M25.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M26.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M27.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M28_M29.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M30.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M32.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M33.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M34.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M524.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\sd\M928.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\stats\M31.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\stats\M75-M78.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\temp\M104_M109.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\temp\M105.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\temp\M106_M107.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\temp\M140_M190.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\temp\M141_M191.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\temp\M155.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\temp\M303.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\units\M82_M83.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gcode\usart_lcd\M1108.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\gd32_cdc_queue.c.o
+Compiling .pio\build\langgo407ve_st\src\src\gd32_usb.c.o
+Compiling .pio\build\langgo407ve_st\src\src\gd32_usbh_diskio.c.o
+Compiling .pio\build\langgo407ve_st\src\src\gd32_usbh_usr.c.o
+Compiling .pio\build\langgo407ve_st\src\src\inc\Warnings.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\dwin\dwin_lcd.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\dwin\e3v2\dwin.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\dwin\e3v2\rotary_encoder.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\anycubic_chiron_lcd.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\anycubic_i3mega_lcd.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\dgus_lcd.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\example.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\extui_btt_menu.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\lib\tsc\GUI.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\lib\tsc\Hal\STM32_Flash.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\lib\tsc\Hal\stm32f4_fsmc.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\lib\tsc\Hal\sw_spi.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\lib\tsc\Hal\touch_process.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\lib\tsc\Hal\w25qxx.cpp.o
+Compiling .pio\build\langgo407ve_st\src\src\lcd\extui\lib\tsc\Hal\xpt2046.cpp.o
+In file included from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\variants\MARLIN_F407VE/hal_conf_custom.h:282,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\system\STM32F4xx/stm32f4xx_hal_conf.h:8,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\system\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h:30,  
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\system\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h:250,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/stm32_def.h:34,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/PortNames.h:33,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/PinNames.h:5,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/pinmap.h:22,
+                 from Marlin\src\lcd\extui\lib\tsc\./Hal/stm32f4_fsmc.h:4,
+                 from Marlin\src\lcd\extui\lib\tsc\LCD_Init.h:3,
+                 from Marlin\src\lcd\extui\lib\tsc\GUI.cpp:2:
+C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/backup.h: In function 'void enableBackupDomain()':
+C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\system\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h:518:41: error: 'UNUSED' was not declared in this scope
+  518 |                                         UNUSED(tmpreg); \
+      |                                         ^~~~~~
+C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/backup.h:83:5: note: in expansion of macro '__HAL_RCC_PWR_CLK_ENABLE'
+   83 |     __HAL_RCC_PWR_CLK_ENABLE();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\system\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h:518:41: note: the macro 'UNUSED' had not yet been defined
+  518 |                                         UNUSED(tmpreg); \
+      |                                         ^~~~~~
+C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/backup.h:83:5: note: in expansion of macro '__HAL_RCC_PWR_CLK_ENABLE'
+   83 |     __HAL_RCC_PWR_CLK_ENABLE();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from Marlin\lib\GD32F4xx_usb_library\src/../../../src/HAL/STM32/tft/../../../inc/../HAL/./STM32/HAL.h:28,
+                 from Marlin\lib\GD32F4xx_usb_library\src/../../../src/HAL/STM32/tft/../../../inc/../HAL/HAL.h:30,
+                 from Marlin\lib\GD32F4xx_usb_library\src/../../../src/HAL/STM32/tft/../../../inc/MarlinConfig.h:31,
+                 from Marlin\lib\GD32F4xx_usb_library\src/../../../src/HAL/STM32/tft/tft_fsmc.h:24,
+                 from Marlin\src\lcd\extui\lib\tsc\./Hal/stm32f4_fsmc.h:5,
+                 from Marlin\src\lcd\extui\lib\tsc\LCD_Init.h:3,
+                 from Marlin\src\lcd\extui\lib\tsc\GUI.cpp:2:
+Marlin\lib\GD32F4xx_usb_library\src/../../../src/HAL/STM32/tft/../../../inc/../HAL/./STM32/../shared/Marduino.h:82: note: it was later defined here
+   82 |   #define UNUSED(x) ((void)(x))
+      | 
+compilation terminated due to -fmax-errors=1.
+*** [.pio\build\langgo407ve_st\src\src\lcd\extui\lib\tsc\GUI.cpp.o] Error 1
+In file included from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\variants\MARLIN_F407VE/hal_conf_custom.h:282,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\system\STM32F4xx/stm32f4xx_hal_conf.h:8,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\system\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal.h:30,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\system\Drivers\CMSIS\Device\ST\STM32F4xx\Include/stm32f4xx.h:250,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/stm32_def.h:34,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/PortNames.h:33,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/PinNames.h:5,
+                 from C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/pinmap.h:22,
+                 from Marlin\src\lcd\extui\lib\tsc\Hal\.././Hal/stm32f4_fsmc.h:4,
+                 from Marlin\src\lcd\extui\lib\tsc\Hal\../LCD_Init.h:3,
+                 from Marlin\src\lcd\extui\lib\tsc\Hal\touch_process.cpp:3:
+C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/backup.h: In function 'void enableBackupDomain()':
+C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\system\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h:518:41: error: 'UNUSED' was not declared in this scope
+  518 |                                         UNUSED(tmpreg); \
+      |                                         ^~~~~~
+C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/backup.h:83:5: note: in expansion of macro '__HAL_RCC_PWR_CLK_ENABLE'
+   83 |     __HAL_RCC_PWR_CLK_ENABLE();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\system\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_rcc.h:518:41: note: the macro 'UNUSED' had not yet been defined
+  518 |                                         UNUSED(tmpreg); \
+      |                                         ^~~~~~
+C:\Users\xadministrator\.platformio\packages\framework-arduinoststm32\cores\arduino\stm32/backup.h:83:5: note: in expansion of macro '__HAL_RCC_PWR_CLK_ENABLE'
+   83 |     __HAL_RCC_PWR_CLK_ENABLE();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from Marlin\lib\GD32F4xx_usb_library\src/../../../src/HAL/STM32/tft/../../../inc/../HAL/./STM32/HAL.h:28,
+                 from Marlin\lib\GD32F4xx_usb_library\src/../../../src/HAL/STM32/tft/../../../inc/../HAL/HAL.h:30,
+                 from Marlin\lib\GD32F4xx_usb_library\src/../../../src/HAL/STM32/tft/../../../inc/MarlinConfig.h:31,
+                 from Marlin\lib\GD32F4xx_usb_library\src/../../../src/HAL/STM32/tft/tft_fsmc.h:24,
+                 from Marlin\src\lcd\extui\lib\tsc\Hal\.././Hal/stm32f4_fsmc.h:5,
+                 from Marlin\src\lcd\extui\lib\tsc\Hal\../LCD_Init.h:3,
+                 from Marlin\src\lcd\extui\lib\tsc\Hal\touch_process.cpp:3:
+Marlin\lib\GD32F4xx_usb_library\src/../../../src/HAL/STM32/tft/../../../inc/../HAL/./STM32/../shared/Marduino.h:82: note: it was later defined here      
+   82 |   #define UNUSED(x) ((void)(x))
+      |
+compilation terminated due to -fmax-errors=1.
+*** [.pio\build\langgo407ve_st\src\src\lcd\extui\lib\tsc\Hal\touch_process.cpp.o] Error 1
+============================================================= [FAILED] Took 129.98 seconds =============================================================
+
+Environment     Status    Duration
+--------------  --------  ------------
+langgo407ve_st  FAILED    00:02:09.985
+========================================================= 1 failed, 0 succeeded in 00:02:09.985 =========================================================
+
+ *  The terminal process "C:\Users\xadministrator\.platformio\penv\Scripts\platformio.exe 'run'" terminated with exit code: 1. 
+ *  Terminal will be reused by tasks, press any key to close it. 

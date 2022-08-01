@@ -5,6 +5,10 @@
 		}
 	],
 	"settings": {
-		"search.useIgnoreFiles": true
+		"search.useIgnoreFiles": true,
+		"files.associations": {
+			"stm32f4xx_hal_rcc.h": "c",
+			"stm32f4xx_hal_rcc_ex.h": "c"
+		}
 	}
 }
