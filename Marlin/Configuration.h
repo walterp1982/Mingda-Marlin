@@ -26,8 +26,8 @@
 // #define R4_PRO    // R4_pro:pro
 
 // CHOOSE ST VS GD MICROCONTROLLER HERE
-#define ST32_SHIP
-//define USE_GD32
+//#define ST32_SHIP
+#define USE_GD32
 #define HAS_UDISK
 
 /* Bed Size
@@ -270,7 +270,7 @@
 
 // Save and restore temperature and fan speed on tool-change.
 // Set standby for the unselected tool with M104/106/109 T...
-#ifdef SINGLENOZZLE 
+#ifdef SINGLENOZZLE
   //#define SINGLENOZZLE_STANDBY_TEMP
   //#define SINGLENOZZLE_STANDBY_FAN
 #endif
