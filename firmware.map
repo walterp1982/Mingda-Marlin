@@ -4194,18 +4194,6 @@ Discarded input sections
  .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/HAL/STM32/watchdog.cpp.o
  .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/HAL/STM32/watchdog.cpp.o
  .text.c_func   0x0000000000000000        0xa .pio/build/langgo407ve_st/src/src/HAL/STM32/watchdog.cpp.o
- .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/HAL/shared/HAL_spi_L6470.cpp.o
- .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/HAL/shared/HAL_spi_L6470.cpp.o
- .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/HAL/shared/HAL_spi_L6470.cpp.o
- .debug_info    0x0000000000000000    0x13ae8 .pio/build/langgo407ve_st/src/src/HAL/shared/HAL_spi_L6470.cpp.o
- .debug_abbrev  0x0000000000000000      0x927 .pio/build/langgo407ve_st/src/src/HAL/shared/HAL_spi_L6470.cpp.o
- .debug_aranges
-                0x0000000000000000       0x18 .pio/build/langgo407ve_st/src/src/HAL/shared/HAL_spi_L6470.cpp.o
- .debug_line    0x0000000000000000      0xad1 .pio/build/langgo407ve_st/src/src/HAL/shared/HAL_spi_L6470.cpp.o
- .debug_str     0x0000000000000000     0xd696 .pio/build/langgo407ve_st/src/src/HAL/shared/HAL_spi_L6470.cpp.o
- .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/HAL/shared/HAL_spi_L6470.cpp.o
- .ARM.attributes
-                0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/HAL/shared/HAL_spi_L6470.cpp.o
  .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/HAL/shared/backtrace/backtrace.cpp.o
  .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/HAL/shared/backtrace/backtrace.cpp.o
  .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/HAL/shared/backtrace/backtrace.cpp.o
@@ -4549,6 +4537,30 @@ Discarded input sections
                 0x0000000000000000        0x8 .pio/build/langgo407ve_st/src/src/feature/bedlevel/bedlevel.cpp.o
  .text._ZN25TemporaryBedLevelingStateC2Eb
                 0x0000000000000000       0x18 .pio/build/langgo407ve_st/src/src/feature/bedlevel/bedlevel.cpp.o
+ .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/feature/mmu2/mmu2.cpp.o
+ .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/feature/mmu2/mmu2.cpp.o
+ .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/feature/mmu2/mmu2.cpp.o
+ .debug_info    0x0000000000000000    0x13ae8 .pio/build/langgo407ve_st/src/src/feature/mmu2/mmu2.cpp.o
+ .debug_abbrev  0x0000000000000000      0x927 .pio/build/langgo407ve_st/src/src/feature/mmu2/mmu2.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x18 .pio/build/langgo407ve_st/src/src/feature/mmu2/mmu2.cpp.o
+ .debug_line    0x0000000000000000      0xadb .pio/build/langgo407ve_st/src/src/feature/mmu2/mmu2.cpp.o
+ .debug_str     0x0000000000000000     0xd68f .pio/build/langgo407ve_st/src/src/feature/mmu2/mmu2.cpp.o
+ .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/feature/mmu2/mmu2.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/feature/mmu2/mmu2.cpp.o
+ .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/feature/mmu/mmu.cpp.o
+ .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/feature/mmu/mmu.cpp.o
+ .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/feature/mmu/mmu.cpp.o
+ .debug_info    0x0000000000000000    0x13ae8 .pio/build/langgo407ve_st/src/src/feature/mmu/mmu.cpp.o
+ .debug_abbrev  0x0000000000000000      0x927 .pio/build/langgo407ve_st/src/src/feature/mmu/mmu.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x18 .pio/build/langgo407ve_st/src/src/feature/mmu/mmu.cpp.o
+ .debug_line    0x0000000000000000      0xad6 .pio/build/langgo407ve_st/src/src/feature/mmu/mmu.cpp.o
+ .debug_str     0x0000000000000000     0xd68d .pio/build/langgo407ve_st/src/src/feature/mmu/mmu.cpp.o
+ .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/feature/mmu/mmu.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/feature/mmu/mmu.cpp.o
  .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/feature/pause.cpp.o
  .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/feature/pause.cpp.o
  .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/feature/pause.cpp.o
@@ -4712,6 +4724,18 @@ Discarded input sections
                 0x0000000000000000       0x60 .pio/build/langgo407ve_st/src/src/gcode/calibrate/M48.cpp.o
  .text._ZN5Probe9can_reachERKfS1_
                 0x0000000000000000      0x108 .pio/build/langgo407ve_st/src/src/gcode/calibrate/M48.cpp.o
+ .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/gcode/calibrate/M665.cpp.o
+ .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/gcode/calibrate/M665.cpp.o
+ .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/gcode/calibrate/M665.cpp.o
+ .debug_info    0x0000000000000000    0x13ae8 .pio/build/langgo407ve_st/src/src/gcode/calibrate/M665.cpp.o
+ .debug_abbrev  0x0000000000000000      0x927 .pio/build/langgo407ve_st/src/src/gcode/calibrate/M665.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x18 .pio/build/langgo407ve_st/src/src/gcode/calibrate/M665.cpp.o
+ .debug_line    0x0000000000000000      0xaea .pio/build/langgo407ve_st/src/src/gcode/calibrate/M665.cpp.o
+ .debug_str     0x0000000000000000     0xd692 .pio/build/langgo407ve_st/src/src/gcode/calibrate/M665.cpp.o
+ .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/gcode/calibrate/M665.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/gcode/calibrate/M665.cpp.o
  .group         0x0000000000000000        0xc .pio/build/langgo407ve_st/src/src/gcode/config/M200-M205.cpp.o
  .group         0x0000000000000000        0xc .pio/build/langgo407ve_st/src/src/gcode/config/M200-M205.cpp.o
  .group         0x0000000000000000        0xc .pio/build/langgo407ve_st/src/src/gcode/config/M200-M205.cpp.o
@@ -4736,6 +4760,18 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/gcode/config/M221.cpp.o
  .text._ZN14HardwareSerial5writeEi
                 0x0000000000000000        0x8 .pio/build/langgo407ve_st/src/src/gcode/config/M221.cpp.o
+ .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/gcode/config/M281.cpp.o
+ .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/gcode/config/M281.cpp.o
+ .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/gcode/config/M281.cpp.o
+ .debug_info    0x0000000000000000    0x13ae8 .pio/build/langgo407ve_st/src/src/gcode/config/M281.cpp.o
+ .debug_abbrev  0x0000000000000000      0x927 .pio/build/langgo407ve_st/src/src/gcode/config/M281.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x18 .pio/build/langgo407ve_st/src/src/gcode/config/M281.cpp.o
+ .debug_line    0x0000000000000000      0xadb .pio/build/langgo407ve_st/src/src/gcode/config/M281.cpp.o
+ .debug_str     0x0000000000000000     0xd68f .pio/build/langgo407ve_st/src/src/gcode/config/M281.cpp.o
+ .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/gcode/config/M281.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/gcode/config/M281.cpp.o
  .group         0x0000000000000000        0xc .pio/build/langgo407ve_st/src/src/gcode/config/M301.cpp.o
  .group         0x0000000000000000        0xc .pio/build/langgo407ve_st/src/src/gcode/config/M301.cpp.o
  .group         0x0000000000000000        0xc .pio/build/langgo407ve_st/src/src/gcode/config/M301.cpp.o
@@ -5181,6 +5217,18 @@ Discarded input sections
  .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/gcode/lcd/M145.cpp.o
  .ARM.attributes
                 0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/gcode/lcd/M145.cpp.o
+ .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/gcode/lcd/M250.cpp.o
+ .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/gcode/lcd/M250.cpp.o
+ .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/gcode/lcd/M250.cpp.o
+ .debug_info    0x0000000000000000    0x13ae8 .pio/build/langgo407ve_st/src/src/gcode/lcd/M250.cpp.o
+ .debug_abbrev  0x0000000000000000      0x927 .pio/build/langgo407ve_st/src/src/gcode/lcd/M250.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x18 .pio/build/langgo407ve_st/src/src/gcode/lcd/M250.cpp.o
+ .debug_line    0x0000000000000000      0xacc .pio/build/langgo407ve_st/src/src/gcode/lcd/M250.cpp.o
+ .debug_str     0x0000000000000000     0xd68c .pio/build/langgo407ve_st/src/src/gcode/lcd/M250.cpp.o
+ .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/gcode/lcd/M250.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/gcode/lcd/M250.cpp.o
  .group         0x0000000000000000        0xc .pio/build/langgo407ve_st/src/src/gcode/lcd/M300.cpp.o
  .group         0x0000000000000000        0xc .pio/build/langgo407ve_st/src/src/gcode/lcd/M300.cpp.o
  .group         0x0000000000000000        0xc .pio/build/langgo407ve_st/src/src/gcode/lcd/M300.cpp.o
@@ -5480,6 +5528,42 @@ Discarded input sections
  .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/gd32_usbh_usr.c.o
  .ARM.attributes
                 0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/gd32_usbh_usr.c.o
+ .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/dwin/dwin_lcd.cpp.o
+ .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/dwin/dwin_lcd.cpp.o
+ .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/dwin/dwin_lcd.cpp.o
+ .debug_info    0x0000000000000000       0x64 .pio/build/langgo407ve_st/src/src/lcd/dwin/dwin_lcd.cpp.o
+ .debug_abbrev  0x0000000000000000       0x26 .pio/build/langgo407ve_st/src/src/lcd/dwin/dwin_lcd.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x18 .pio/build/langgo407ve_st/src/src/lcd/dwin/dwin_lcd.cpp.o
+ .debug_line    0x0000000000000000       0x1d .pio/build/langgo407ve_st/src/src/lcd/dwin/dwin_lcd.cpp.o
+ .debug_str     0x0000000000000000      0x267 .pio/build/langgo407ve_st/src/src/lcd/dwin/dwin_lcd.cpp.o
+ .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/lcd/dwin/dwin_lcd.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/lcd/dwin/dwin_lcd.cpp.o
+ .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/dwin.cpp.o
+ .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/dwin.cpp.o
+ .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/dwin.cpp.o
+ .debug_info    0x0000000000000000       0x64 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/dwin.cpp.o
+ .debug_abbrev  0x0000000000000000       0x26 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/dwin.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x18 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/dwin.cpp.o
+ .debug_line    0x0000000000000000       0x1d .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/dwin.cpp.o
+ .debug_str     0x0000000000000000      0x268 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/dwin.cpp.o
+ .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/dwin.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/dwin.cpp.o
+ .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/rotary_encoder.cpp.o
+ .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/rotary_encoder.cpp.o
+ .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/rotary_encoder.cpp.o
+ .debug_info    0x0000000000000000       0x64 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/rotary_encoder.cpp.o
+ .debug_abbrev  0x0000000000000000       0x26 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/rotary_encoder.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x18 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/rotary_encoder.cpp.o
+ .debug_line    0x0000000000000000       0x1d .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/rotary_encoder.cpp.o
+ .debug_str     0x0000000000000000      0x272 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/rotary_encoder.cpp.o
+ .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/rotary_encoder.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/rotary_encoder.cpp.o
  .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/extui/extui_btt_menu.cpp.o
  .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/extui/extui_btt_menu.cpp.o
  .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/lcd/extui/extui_btt_menu.cpp.o
@@ -6541,6 +6625,18 @@ Discarded input sections
                 0x0000000000000000       0x10 .pio/build/langgo407ve_st/src/src/sd/cardreader.cpp.o
  .text._Z12announceOpenhPKc
                 0x0000000000000000        0x8 .pio/build/langgo407ve_st/src/src/sd/cardreader.cpp.o
+ .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/sd/usb_flashdrive/Sd2Card_FlashDrive.cpp.o
+ .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/sd/usb_flashdrive/Sd2Card_FlashDrive.cpp.o
+ .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/sd/usb_flashdrive/Sd2Card_FlashDrive.cpp.o
+ .debug_info    0x0000000000000000       0x64 .pio/build/langgo407ve_st/src/src/sd/usb_flashdrive/Sd2Card_FlashDrive.cpp.o
+ .debug_abbrev  0x0000000000000000       0x26 .pio/build/langgo407ve_st/src/src/sd/usb_flashdrive/Sd2Card_FlashDrive.cpp.o
+ .debug_aranges
+                0x0000000000000000       0x18 .pio/build/langgo407ve_st/src/src/sd/usb_flashdrive/Sd2Card_FlashDrive.cpp.o
+ .debug_line    0x0000000000000000       0x1d .pio/build/langgo407ve_st/src/src/sd/usb_flashdrive/Sd2Card_FlashDrive.cpp.o
+ .debug_str     0x0000000000000000      0x27a .pio/build/langgo407ve_st/src/src/sd/usb_flashdrive/Sd2Card_FlashDrive.cpp.o
+ .comment       0x0000000000000000       0x67 .pio/build/langgo407ve_st/src/src/sd/usb_flashdrive/Sd2Card_FlashDrive.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x39 .pio/build/langgo407ve_st/src/src/sd/usb_flashdrive/Sd2Card_FlashDrive.cpp.o
  .text          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/stm32_usb.c.o
  .data          0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/stm32_usb.c.o
  .bss           0x0000000000000000        0x0 .pio/build/langgo407ve_st/src/src/stm32_usb.c.o
@@ -17197,7 +17293,6 @@ LOAD .pio/build/langgo407ve_st/src/src/HAL/STM32/tft/xpt2046.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/HAL/STM32/timers.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/HAL/STM32/usb_serial.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/HAL/STM32/watchdog.cpp.o
-LOAD .pio/build/langgo407ve_st/src/src/HAL/shared/HAL_spi_L6470.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/HAL/shared/backtrace/backtrace.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/HAL/shared/backtrace/unwarm.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/HAL/shared/backtrace/unwarm_arm.cpp.o
@@ -17220,6 +17315,8 @@ LOAD .pio/build/langgo407ve_st/src/src/fatfs.c.o
 LOAD .pio/build/langgo407ve_st/src/src/feature/babystep.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/feature/bedlevel/abl/abl.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/feature/bedlevel/bedlevel.cpp.o
+LOAD .pio/build/langgo407ve_st/src/src/feature/mmu2/mmu2.cpp.o
+LOAD .pio/build/langgo407ve_st/src/src/feature/mmu/mmu.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/feature/pause.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/feature/powerloss.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/feature/runout.cpp.o
@@ -17233,9 +17330,11 @@ LOAD .pio/build/langgo407ve_st/src/src/gcode/bedlevel/abl/M421.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/calibrate/G28.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/calibrate/G34_M422.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/calibrate/M48.cpp.o
+LOAD .pio/build/langgo407ve_st/src/src/gcode/calibrate/M665.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/config/M200-M205.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/config/M220.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/config/M221.cpp.o
+LOAD .pio/build/langgo407ve_st/src/src/gcode/config/M281.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/config/M301.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/config/M302.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/config/M304.cpp.o
@@ -17283,6 +17382,7 @@ LOAD .pio/build/langgo407ve_st/src/src/gcode/host/M154.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/lcd/M0_M1.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/lcd/M117.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/lcd/M145.cpp.o
+LOAD .pio/build/langgo407ve_st/src/src/gcode/lcd/M250.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/lcd/M300.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/motion/G0_G1.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/gcode/motion/G2_G3.cpp.o
@@ -17322,6 +17422,9 @@ LOAD .pio/build/langgo407ve_st/src/src/gd32_cdc_queue.c.o
 LOAD .pio/build/langgo407ve_st/src/src/gd32_usb.c.o
 LOAD .pio/build/langgo407ve_st/src/src/gd32_usbh_diskio.c.o
 LOAD .pio/build/langgo407ve_st/src/src/gd32_usbh_usr.c.o
+LOAD .pio/build/langgo407ve_st/src/src/lcd/dwin/dwin_lcd.cpp.o
+LOAD .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/dwin.cpp.o
+LOAD .pio/build/langgo407ve_st/src/src/lcd/dwin/e3v2/rotary_encoder.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/lcd/extui/extui_btt_menu.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/lcd/extui/lib/tsc/GUI.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/lcd/extui/lib/tsc/Hal/STM32_Flash.cpp.o
@@ -17396,6 +17499,7 @@ LOAD .pio/build/langgo407ve_st/src/src/sd/SdFatUtil.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/sd/SdFile.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/sd/SdVolume.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/sd/cardreader.cpp.o
+LOAD .pio/build/langgo407ve_st/src/src/sd/usb_flashdrive/Sd2Card_FlashDrive.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/stm32_usb.c.o
 LOAD .pio/build/langgo407ve_st/src/src/udisk/udiskPrint.cpp.o
 LOAD .pio/build/langgo407ve_st/src/src/usb_common_init.c.o
