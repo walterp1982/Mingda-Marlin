@@ -120,6 +120,9 @@ Marlin\lib\rtt
 Marlin\lib\GD32F4xx_usb_library
 Marlin\lib\STM32_USB_Host_Library
 
+DIRECTORY REQUIRED
+Marlin\src\udisk
+
 
 
 
